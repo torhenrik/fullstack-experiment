@@ -1,0 +1,84 @@
+.root {
+    display:grid;
+}
+
+.content {
+    width: 600px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Grotesk";
+    font-size: 16pt;
+}
+
+h1 {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+label {
+    display: inline-block;
+    width:100%;
+}
+
+@media only screen and (min-width: 992px) {
+#firstname {
+    width: 295px;
+}
+}
+
+@media only screen and (min-width: 992px) {
+#surname {
+    width:295px;
+    margin-left:10px;
+}
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding-bottom : 12px;
+  margin-top: 36px;
+  font-size:16px;
+
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.helptext {
+  width:100%;
+  margin-bottom:36px;
+  font-size:13px;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 36px;
+  margin-top: 36px;
+  font-size: 16pt;
+
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[type=submit] {
+  color: white;
+  background-color: black;
+}
+
+input[type=reset] {
+  color: black;
+  background-color: white;
+}
+
+.btn {
+  padding: 20px;
+  margin-right: 100pt;
+  font-size: 16px;
+  border-radius: 40%;
+}
+
+
+
